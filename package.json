@@ -1,0 +1,25 @@
+{
+  "name": "full-backend-zero",
+  "version": "1.0.0",
+  "description": "Hoi IT Fullstack backend zero",
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "license": "ISC",
+  "author": "Colinz",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "3.1.10",
+    "express": "5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.10"
+  }
+}
